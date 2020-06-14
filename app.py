@@ -8,6 +8,7 @@ api = Api(app)
 
 VERSION = "QA"
 
+
 with open("names.json") as input_file:
     names_input = input_file.read()
     NAMES = json.loads(names_input)
